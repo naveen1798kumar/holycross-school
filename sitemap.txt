@@ -1,0 +1,116 @@
+my-sitemap-project/
+├── public/
+│   ├── index.html
+│   └── robots.txt
+├── src/
+│   ├── assets/              // Images, fonts, styles, etc.
+│   │   └── styles/          // Global and common CSS/SCSS files
+│   ├── components/          // Reusable components
+│   │   ├── SitemapEntry.jsx // Component for each URL entry
+│   │   └── SitemapList.jsx  // Component to render the sitemap list
+│   ├── pages/               // Individual page components
+│   │   ├── Home.jsx         // Represents http://www.holycrossschoolpalani.org/
+│   │   ├── Index.jsx        // Represents http://www.holycrossschoolpalani.org/index.php
+│   │   ├── AboutUs.jsx      // Represents http://www.holycrossschoolpalani.org/aboutus.php
+│   │   ├── MotivatingFactor.jsx      // Represents http://www.holycrossschoolpalani.org/motivating_factor.php
+│   │   ├── OurBelief.jsx      // Represents http://www.holycrossschoolpalani.org/our_belief.php
+│   │   ├── Chairman.jsx     // Represents http://www.holycrossschoolpalani.org/chairman.php
+│   │   ├── Correspondent.jsx // Represents http://www.holycrossschoolpalani.org/correspondent.php
+│   │   ├── Secretary.jsx    // Represents http://www.holycrossschoolpalani.org/secretary.php
+│   │   ├── Principal.jsx    // Represents http://www.holycrossschoolpalani.org/principal.php
+│   │   ├── Governing.jsx    // Represents http://www.holycrossschoolpalani.org/governing.php
+│   │   ├── PromotionPolicy.jsx  // Represents http://www.holycrossschoolpalani.org/promotion_policy.php
+│   │   ├── BehaviouralPolicy.jsx  // Represents http://www.holycrossschoolpalani.org/behavioural_policy.php
+│   │   ├── ExaminationPolicy.jsx  // Represents http://www.holycrossschoolpalani.org/examination_policy.php
+│   │   ├── Awards.jsx       // Represents http://www.holycrossschoolpalani.org/awards.php
+│   │   ├── Olympids.jsx     // Represents http://www.holycrossschoolpalani.org/olympids.php
+│   │   ├── BritishCouncil.jsx    // Represents http://www.holycrossschoolpalani.org/british_council.php
+│   │   ├── SchoolTiming.jsx // Represents http://www.holycrossschoolpalani.org/school_timing.php
+│   │   ├── StudentEnroll.jsx// Represents http://www.holycrossschoolpalani.org/student_enroll.php
+│   │   ├── StudentsTransferInfo.jsx // Represents the PDF entry http://www.holycrossschoolpalani.org/STUDENTS%20TRANSFER%20INFORMATION.pdf (if you choose to create a page preview)
+│   │   ├── TC2019_2020.jsx  // Represents http://www.holycrossschoolpalani.org/TC%202019-2020.pdf (or a preview page)
+│   │   ├── StudentsCouncil2017_2018.jsx  // Represents http://www.holycrossschoolpalani.org/students_council_2017_2018.php
+│   │   ├── StudentsCouncil2018_2019.jsx  // Represents http://www.holycrossschoolpalani.org/students_council_2018_2019.php
+│   │   ├── ComingSoon.jsx   // Represents http://www.holycrossschoolpalani.org/coming_soon.php
+│   │   ├── StudentNoHomework.jsx // Represents http://www.holycrossschoolpalani.org/Student_no_homework.php
+│   │   ├── AnnualReport2016_2017.jsx  // Represents http://www.holycrossschoolpalani.org/2016-2017_Annual_Report.pdf (preview)
+│   │   ├── AnnualReport2017_2018.jsx  // Represents http://www.holycrossschoolpalani.org/2017-2018_Annual_Report.pdf (preview)
+│   │   ├── CCA.jsx          // Represents http://www.holycrossschoolpalani.org/cca.php
+│   │   ├── School.jsx       // Represents http://www.holycrossschoolpalani.org/school.php
+│   │   ├── CBSEDocs/        // For all CBSE PDF documents, optionally group into a subfolder
+│   │   │   ├── Mandatory.jsx            // For PDF preview or link to http://www.holycrossschoolpalani.org/CBSE_DOCS/Mandatory.pdf
+│   │   │   ├── AffiliationOrder.jsx     // http://www.holycrossschoolpalani.org/CBSE_DOCS/Affiliation_Order.pdf
+│   │   │   ├── SocietyCertificate.jsx   // http://www.holycrossschoolpalani.org/CBSE_DOCS/Society_Certificate.pdf
+│   │   │   ├── RecognitionOrder.jsx     // http://www.holycrossschoolpalani.org/CBSE_DOCS/Recognition_Order.pdf
+│   │   │   ├── BuildingSafetyCertificate.jsx  // http://www.holycrossschoolpalani.org/CBSE_DOCS/Building_and_Safety_Certificate.pdf
+│   │   │   ├── FIRE.jsx                   // http://www.holycrossschoolpalani.org/CBSE_DOCS/FIRE.pdf
+│   │   │   ├── SelfCertification.jsx      // http://www.holycrossschoolpalani.org/CBSE_DOCS/Self_Certification.pdf
+│   │   │   ├── SanitaryCertificate.jsx    // http://www.holycrossschoolpalani.org/CBSE_DOCS/Sanitary_Certificate.pdf
+│   │   │   ├── FeeStructure.jsx           // http://www.holycrossschoolpalani.org/CBSE_DOCS/Fee_Structure.pdf
+│   │   │   ├── AcademicCalendar.jsx       // http://www.holycrossschoolpalani.org/CBSE_DOCS/Academic_Calendar.pdf
+│   │   │   ├── SMC.jsx                    // http://www.holycrossschoolpalani.org/CBSE_DOCS/SMC.pdf
+│   │   │   ├── PTA.jsx                    // http://www.holycrossschoolpalani.org/CBSE_DOCS/PTA.pdf
+│   │   │   ├── CBSEResultDeclaration.jsx  // http://www.holycrossschoolpalani.org/CBSE_DOCS/CBSE%20RESULT%20DECLARATION.pdf
+│   │   │   ├── AffiliationStatus.jsx      // http://www.holycrossschoolpalani.org/CBSE_DOCS/Affiliation_Status.pdf
+│   │   │   ├── TransferCertificate.jsx    // http://www.holycrossschoolpalani.org/CBSE_DOCS/Transfer_Certificate.pdf
+│   │   │   ├── TeachersTraining.jsx       // http://www.holycrossschoolpalani.org/CBSE_DOCS/Details_Of_Teachers_Training.pdf
+│   │   │   ├── SchoolCircular.jsx         // http://www.holycrossschoolpalani.org/CBSE_DOCS/School_Circular.pdf
+│   │   │   ├── NoOfStudents.jsx           // http://www.holycrossschoolpalani.org/CBSE_DOCS/No_Of_Studnets.pdf
+│   │   │   ├── SelfAffidavit.jsx          // http://www.holycrossschoolpalani.org/CBSE_DOCS/Self_Affidavit_Of_School.pdf
+│   │   │   ├── ListOfBooks.jsx            // http://www.holycrossschoolpalani.org/CBSE_DOCS/List_Of_Books.pdf
+│   │   │   ├── DeclarationContent.jsx     // http://www.holycrossschoolpalani.org/CBSE_DOCS/Declaration_Content_of_Books.pdf
+│   │   │   ├── StaffTeaching.jsx          // http://www.holycrossschoolpalani.org/CBSE_DOCS/STAFF_TEACHING.pdf
+│   │   │   ├── SchoolInfrastructure.jsx   // http://www.holycrossschoolpalani.org/CBSE_DOCS/SCHOOL_INFRASTRUCTURE.pdf
+│   │   ├── RoboticsClub.jsx   // Represents http://www.holycrossschoolpalani.org/robotics_club.php
+│   │   ├── DebatingClub.jsx   // Represents http://www.holycrossschoolpalani.org/debating_club.php
+│   │   ├── ElectronicClub.jsx // Represents http://www.holycrossschoolpalani.org/electronic_club.php
+│   │   ├── InteractClub.jsx   // Represents http://www.holycrossschoolpalani.org/interact_club.php
+│   │   ├── DramaticsClub.jsx  // Represents http://www.holycrossschoolpalani.org/dramatics_club.php
+│   │   ├── EditorialClub.jsx  // Represents http://www.holycrossschoolpalani.org/editorial_club.php
+│   │   ├── EnvironmentClub.jsx // Represents http://www.holycrossschoolpalani.org/environment_club.php
+│   │   ├── MathsClub.jsx      // Represents http://www.holycrossschoolpalani.org/maths_club.php
+│   │   ├── SupwClub.jsx       // Represents http://www.holycrossschoolpalani.org/supw_club.php
+│   │   ├── EspiceClub.jsx     // Represents http://www.holycrossschoolpalani.org/espice_club.php
+│   │   ├── QuizClub.jsx       // Represents http://www.holycrossschoolpalani.org/quiz_club.php
+│   │   ├── ArtClub.jsx        // Represents http://www.holycrossschoolpalani.org/art_club.php
+│   │   ├── OurCampus.jsx      // Represents http://www.holycrossschoolpalani.org/our_campus.php
+│   │   ├── MathLab.jsx        // Represents http://www.holycrossschoolpalani.org/math_lab.php
+│   │   ├── SocialScience.jsx  // Represents http://www.holycrossschoolpalani.org/social_science.php
+│   │   ├── Language.jsx       // Represents http://www.holycrossschoolpalani.org/language.php
+│   │   ├── Computer.jsx       // Represents http://www.holycrossschoolpalani.org/computer.php
+│   │   ├── Science.jsx        // Represents http://www.holycrossschoolpalani.org/science.php
+│   │   ├── Transport.jsx      // Represents http://www.holycrossschoolpalani.org/transport.php
+│   │   ├── SmartClass.jsx     // Represents http://www.holycrossschoolpalani.org/smart_class.php
+│   │   ├── SciencePark.jsx    // Represents http://www.holycrossschoolpalani.org/science_park.php
+│   │   ├── Library.jsx        // Represents http://www.holycrossschoolpalani.org/libary.php
+│   │   ├── Sports.jsx         // Represents http://www.holycrossschoolpalani.org/sports.php
+│   │   ├── Auditorium.jsx     // Represents http://www.holycrossschoolpalani.org/auditorium.php
+│   │   ├── AVRoom.jsx         // Represents http://www.holycrossschoolpalani.org/avroom.php
+│   │   ├── OATheater.jsx      // Represents http://www.holycrossschoolpalani.org/oa_theater.php
+│   │   ├── DiscoveryRoom.jsx  // Represents http://www.holycrossschoolpalani.org/discovery_room.php
+│   │   ├── ConferenceRoom.jsx // Represents http://www.holycrossschoolpalani.org/conference_room.php
+│   │   ├── SeminarRoom.jsx    // Represents http://www.holycrossschoolpalani.org/seminar_room.php
+│   │   ├── Faculty.jsx        // Represents http://www.holycrossschoolpalani.org/faculty.php
+│   │   ├── Gallery.jsx        // Represents http://www.holycrossschoolpalani.org/gallery.php
+│   │   ├── GalleryList191.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='191'
+│   │   ├── GalleryList192.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='192'
+│   │   ├── GalleryList193.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='193'
+│   │   ├── GalleryList194.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='194'
+│   │   ├── GalleryList195.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='195'
+│   │   ├── GalleryList196.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='196'
+│   │   ├── GalleryList197.jsx // Represents http://www.holycrossschoolpalani.org/gallery-list.php?cat_id='197'
+│   │   ├── ForgotPassword.jsx // Represents http://www.holycrossschoolpalani.org/forgot.php
+│   │   └── ExtraPages.jsx     // For any additional pages not explicitly listed; can be organized further
+│   ├── routes/              // Routing definitions if using React Router
+│   │   └── index.js         // Configure routes for each page component here
+│   ├── services/            // Business logic or API services (if any)
+│   │   └── sitemapService.js
+│   ├── utils/               // Helper functions (e.g., for generating XML)
+│   │   └── xmlHelpers.js
+│   ├── App.jsx              // Main application component
+│   ├── index.jsx            // Entry point for React
+│   └── setupTests.js        // Test configuration if needed
+├── .env
+├── .gitignore
+├── package.json
+└── README.md

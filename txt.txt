@@ -1,0 +1,9 @@
+For Tailwind CSS: @heroicons/react or lucide-react
+For Material UI projects: @mui/icons-material
+For a clean and modern look: lucide-react, phosphor-react, or tabler-icons-react
+For a simple and lightweight option: react-feather
+For Bootstrap users: react-bootstrap-icons
+
+font-awesome
+simple icons react
+brandico
