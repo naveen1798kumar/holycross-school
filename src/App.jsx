@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/about/:pageId" element={<AboutParams />} />
           <Route path="/academics/:pageId" element={<AcademicsPages />} />
           {/* /academics/promotion-policy */}
-          <Route path="contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </Router>
